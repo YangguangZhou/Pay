@@ -1,8 +1,8 @@
 {
     "rewrites": [
         {
-            "source": "/sponsor.html",
-            "destination": "/sponsor"
+            "source": "/sponsor",
+            "destination": "/sponsor.html"
         }
     ]
 }
