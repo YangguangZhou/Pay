@@ -1,8 +1,12 @@
 {
-    "rewrites": [
+    "routes": [
         {
-            "source": "/sponsor",
-            "destination": "/sponsor.html"
+            "handle": "filesystem"
+        },
+        {
+            "src": "/sponsor",
+            ,
+            "dest": "/sponsor.html"
         }
     ]
 }
