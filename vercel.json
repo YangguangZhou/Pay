@@ -1,12 +1,6 @@
 {
     "routes": [
-        {
-            "handle": "filesystem"
-        },
-        {
-            "src": "/sponsor",
-            ,
-            "dest": "/sponsor.html"
-        }
+        { "handle": "filesystem" },
+        { "src": "/sponsor", "dest": "/sponsor.html" }
     ]
 }
