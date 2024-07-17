@@ -1,6 +1,6 @@
 {
     "redirects": [
         { "source": "/sponsor", "destination": "/sponsor.html" },
-        { "source": "/", "destination": "https://p.jerryz.com.cn/pay?id=1" }
+        { "source": "/", "destination": "/sponsor.html" }
     ]
 }
