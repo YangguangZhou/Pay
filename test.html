@@ -3,14 +3,14 @@
 
 <head>
     <meta charset="utf-8">
-    <link type="favicon" rel="shortcut icon" href="https://drive.jerryz.com.cn/Photos/favicon.png" />
+    <link type="favicon" rel="shortcut icon" href="https://jerryz.com.cn/favicon.png" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="mengkun">
     <meta name="renderer" content="webkit">
     <script defer src="http://umami.jerryz.com.cn/script.js" data-website-id="ee85d22b-b5e0-433e-9dc3-7d77fb17ea0e"></script>
     <meta http-equiv="Cache-Control" content="no-siteapp">
-    <title>向Jerry Zhou捐赠</title>
+    <title>向 Jerry Zhou 捐赠</title>
     <script>
         var setting = {
             qqUrl: "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQ6fPM6AcY8urNngZCIDE2ZDkwNDQ2ZmUzZGRjMzI5ZThhNzEzYjQ3OTE3ZTM0_xxx_sign&u=2098412009&n=Jerry+Zhou",
@@ -152,7 +152,7 @@
     <div class="copyright">
         Powered by <a href="https://p.jerryz.com.cn" target="_blank">万能收款码</a>
         <br>
-        Copyright &copy; 2023-2024
+        Copyright &copy; 2023-2025
         <a href="https://jerryz.com.cn" target="_blank">Jerry Zhou</a>
     </div>
 
@@ -164,6 +164,7 @@
             window.location.href = setting.aliUrl;
         } else if (navigator.userAgent.match(/MicroMessenger\//i)) {
             /* 微信 */
+            window.location.href = setting.wechatUrl;
             document.getElementById("wechat-url").src = QRCode.generatePNG(setting.wechatUrl, { margin: 0 });
             document.getElementById("code-wechat").style.display = "block";
         } else if (navigator.userAgent.match(/QQ\//i)) {
