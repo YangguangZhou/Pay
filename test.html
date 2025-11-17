@@ -145,7 +145,7 @@
         <div class="code-area">
             <img id="wechat-url" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=">
         </div>
-        <div class="code-footer">保存以上二维码并扫描即可捐赠<br>感谢您的支持<br>您可以在<a href="https://jerryz.com.cn/sponsor">这里</a>留下你的信息
+        <div class="code-footer">长按以上二维码即可捐赠<br>感谢您的支持<br>您可以在<a href="https://jerryz.com.cn/sponsor">这里</a>留下你的信息
         </div>
     </div>
 
@@ -164,7 +164,6 @@
             window.location.href = setting.aliUrl;
         } else if (navigator.userAgent.match(/MicroMessenger\//i)) {
             /* 微信 */
-            window.location.href = setting.wechatUrl;
             document.getElementById("wechat-url").src = QRCode.generatePNG(setting.wechatUrl, { margin: 0 });
             document.getElementById("code-wechat").style.display = "block";
         } else if (navigator.userAgent.match(/QQ\//i)) {
